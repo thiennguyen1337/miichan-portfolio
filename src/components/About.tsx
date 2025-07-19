@@ -19,15 +19,15 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-neutral-600 leading-relaxed">
               <p>
-                I'm a passionate interior design student currently pursuing my
+                I&apos;m a passionate interior design student currently pursuing my
                 degree at [University Name]. My journey in design began with a
                 fascination for how spaces can influence emotions and behaviors.
               </p>
               <p>
-                Through my studies, I've developed skills in space planning,
+                Through my studies, I&apos;ve developed skills in space planning,
                 color theory, material selection, and sustainable design
                 practices. I believe that great design should be both beautiful
-                and functional, creating spaces that truly enhance people's
+                and functional, creating spaces that truly enhance people&apos;s
                 lives.
               </p>
               <p>

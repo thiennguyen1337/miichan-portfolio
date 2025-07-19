@@ -7,7 +7,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-            I'm always excited to discuss new opportunities, collaborations, or
+            I&apos;m always excited to discuss new opportunities, collaborations, or
             answer any questions about my work
           </p>
         </div>
@@ -16,7 +16,7 @@ const Contact = () => {
           {/* Contact Information */}
           <div>
             <h3 className="text-2xl font-semibold text-primary-700 mb-6">
-              Let's Connect
+              Let&apos;s Connect
             </h3>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
