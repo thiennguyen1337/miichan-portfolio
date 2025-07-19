@@ -7,8 +7,8 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-            I&apos;m always excited to discuss new opportunities, collaborations, or
-            answer any questions about my work
+            I&apos;m always excited to discuss new opportunities,
+            collaborations, or answer any questions about my work
           </p>
         </div>
 

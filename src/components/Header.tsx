@@ -23,7 +23,7 @@ const Header = () => {
               href="/"
               className="text-2xl font-serif font-bold text-primary-800"
             >
-              Your Name
+              Thanh Dao
             </Link>
           </div>
 
