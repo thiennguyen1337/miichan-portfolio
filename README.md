@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Interior Design Student Portfolio
 
-## Getting Started
+A modern, responsive portfolio website built for interior design students to showcase their projects, skills, and academic achievements.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern Design**: Clean, professional layout with warm earth-tone color palette
+- **Responsive**: Optimized for all devices (mobile, tablet, desktop)
+- **Student-Focused**: Sections for projects, resume, and contact information
+- **Fast Performance**: Built with Next.js for optimal loading speed
+- **SEO Optimized**: Static generation for better search engine visibility
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS with custom design system
+- **Fonts**: Playfair Display (serif) + Inter (sans-serif)
+- **Deployment**: Optimized for Vercel
+
+## 🚀 Quick Start
+
+1. **Clone the repository**
+
+   ```bash
+   git clone <your-repo-url>
+   cd miichan-portfolio
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── globals.css          # Global styles and fonts
+│   ├── layout.tsx           # Root layout
+│   └── page.tsx            # Home page
+└── components/
+    ├── Header.tsx          # Navigation component
+    ├── Hero.tsx            # Landing section
+    ├── About.tsx           # About section
+    ├── Projects.tsx        # Projects showcase
+    ├── Resume.tsx          # Resume/CV section
+    ├── Contact.tsx         # Contact form
+    └── Footer.tsx          # Footer component
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Customization
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Updating Personal Information
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Header**: Change name in `src/components/Header.tsx`
+2. **Hero**: Update title and description in `src/components/Hero.tsx`
+3. **About**: Modify personal info and skills in `src/components/About.tsx`
+4. **Projects**: Add your projects in `src/components/Projects.tsx`
+5. **Resume**: Update education and experience in `src/components/Resume.tsx`
+6. **Contact**: Update contact information in `src/components/Contact.tsx`
 
-## Learn More
+### Adding Images
 
-To learn more about Next.js, take a look at the following resources:
+Place your images in the `public/` folder and reference them in components:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```tsx
+<img src="/your-image.jpg" alt="Description" />
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Color Customization
 
-## Deploy on Vercel
+Edit the color palette in `tailwind.config.js`:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```javascript
+colors: {
+  primary: {
+    // Your primary colors
+  },
+  accent: {
+    // Your accent colors
+  }
+}
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Sections Overview
+
+- **Hero**: Eye-catching landing with call-to-action buttons
+- **About**: Personal introduction, skills, and design philosophy
+- **Projects**: Academic and personal design projects with details
+- **Resume**: Education, experience, awards, and downloadable CV
+- **Contact**: Contact form and professional information
+
+## 🚀 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Connect your repository to [Vercel](https://vercel.com)
+3. Vercel will automatically deploy your site
+
+### Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Feel free to submit issues and pull requests to improve this portfolio template.
+
+---
+
+Built with ❤️ for interior design students
