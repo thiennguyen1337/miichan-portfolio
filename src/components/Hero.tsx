@@ -5,7 +5,7 @@ const Hero = () => {
         <div className="animate-fade-in">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-primary-900 mb-6">
             Hi,
-            <span className="block text-accent-600">I'm Thanh</span>
+            <span className="block text-accent-600">I&apos;m Thanh</span>
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-neutral-600 mb-8 max-w-3xl mx-auto leading-relaxed">
             I am passionate about creating beautiful, functional spaces through
