@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Thanh Dao - Portfolio",
   description: "My personal portfolio showcasing projects, resume, and contact information.",
+  icons: {
+    icon: '/interior-designer-icon.png',
+    shortcut: '/interior-designer-icon.png',
+    apple: '/interior-designer-icon.png',
+  },
 };
 
 export default function RootLayout({
